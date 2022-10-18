@@ -2,6 +2,9 @@ from Methods import Enter_number as enter
 from Methods import Create_list_with_positive_real_nums as real
 from Methods import Fractional_part as fract
 from Methods import Diff_between_max_min as difference
+import os
+
+os.system('cls')
 
 length = enter('Введите количество элементов: ')
 max = enter('Введите максимальное значение элемента: ')
