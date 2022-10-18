@@ -23,7 +23,7 @@ def Diff_between_max_min (any_list):
     for i in range (1, len(any_list)):
         if any_list[i] > max:
             max = any_list[i]
-        if any_list[i] < min:
+        elif any_list[i] < min:
             min = any_list[i]
     diff = max - min
     return diff
